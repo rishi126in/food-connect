@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Connect - Fighting Hunger Together</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">🌱</div>
+                FOOD CONNECT
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                <li><a href="#" onclick="showPage('find-food')">Find Food</a></li>
+                <li><a href="#" onclick="showPage('food-shelter')">Food Shelter</a></li>
+                <li><a href="#" onclick="showPage('donate')">Donate</a></li>
+                <li><a href="#" onclick="showPage('volunteer')">Volunteer</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+                <li><button class="btn-login" onclick="showPage('auth')">Login/Signup</button></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="section active">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Fighting Hunger Together</h1>
+                <p>Connecting surplus food with those who need it most</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="showPage('donate')">Donate Food</button>
+                    <button class="btn-secondary" onclick="showPage('find-food')">Find Food</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Meals Served</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Volunteers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Partners</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Cities</div>
+                </div>
+            </div>
+<h2 class="section-title">Why Food Connect Exists</h2>
+<p style="text-align:center; max-width:900px; margin:0 auto 3rem; font-size:1.15rem; line-height:1.8;">
+India wastes millions of tons of edible food every year, while millions still sleep hungry. 
+Food Connect bridges this gap by connecting surplus quality food from individuals, events, restaurants, and stores directly 
+to people in need—quickly, safely, and with dignity.
+</p>
+
+<div class="features">
+    <div class="feature-card">
+        <div class="feature-icon">🥗</div>
+        <h3>Zero Waste</h3>
+        <p>We redirect surplus food so it nourishes people, not landfills.</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">🛺</div>
+        <h3>Last-Mile Delivery</h3>
+        <p>Our volunteers & partner NGOs ensure timely distribution.</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">👨‍👩‍👧</div>
+        <h3>Community Support</h3>
+        <p>Food Connect helps families, workers, students & senior citizens in need.</p>
+    </div>
+</div>
+
+            <h2 class="section-title">How It Works</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Register</h3>
+                    <p>Sign up as a donor or recipient in just a few minutes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍲</div>
+                    <h3>Connect</h3>
+                    <p>Find available food or list surplus food in your area</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Share</h3>
+                    <p>Arrange pickup or delivery to help those in need</p>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title">Real Stories. Real Impact.</h2>
+
+<div class="features">
+    <div class="feature-card">
+        <div class="feature-icon">😊</div>
+        <h3>Rita’s Family</h3>
+        <p>A single mother of two, Rita receives regular food support that helps her focus on her children’s education.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">🏫</div>
+        <h3>Local School Meals</h3>
+        <p>Food Connect helped provide 9,000+ meals to underprivileged students in the region.</p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">🍛</div>
+        <h3>Restaurant Partnerships</h3>
+        <p>Over 120 restaurants now donate fresh meals daily, feeding thousands.</p>
+    </div>
+</div>
+
+<h2 class="section-title">What People Say</h2>
+<div class="stats">
+    <div class="stat-card">
+        <p style="font-style:italic;">"Food Connect helped our NGO feed 300+ people daily. Their coordination is amazing!"</p>
+        <strong>- Helping Hands NGO</strong>
+    </div>
+
+    <div class="stat-card">
+        <p style="font-style:italic;">"Instead of wasting leftover food at my bakery, I donate it every evening. Feels meaningful."</p>
+        <strong>- Sunrise Bakery</strong>
+    </div>
+
+    <div class="stat-card">
+        <p style="font-style:italic;">"Volunteering with Food Connect changed my life. I love serving the community."</p>
+        <strong>- Volunteer Aarti</strong>
+    </div>
+</div>
+<h2 class="section-title">Our Partners</h2>
+
+<div class="stats">
+    <div class="stat-card">
+        <div class="stat-number">30+</div>
+        <div class="stat-label">NGO Partners</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">120+</div>
+        <div class="stat-label">Restaurants & Vendors</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">60+</div>
+        <div class="stat-label">Corporate Supporters</div>
+    </div>
+</div>
+<div style="background:#f0fdf4; padding:3rem; border-radius:20px; margin:4rem 0; text-align:center;">
+    <h2 class="section-title" style="margin-bottom:1rem;">Join the Fight Against Hunger</h2>
+    <p style="max-width:700px; margin:0 auto 2rem; font-size:1.1rem;">
+        Whether you want to donate food, offer funds, volunteer, or help your local community—
+        Food Connect gives you the platform to make a difference.
+    </p>
+    <button class="btn-primary" onclick="showPage('donate')" style="margin:0 1rem;">Donate Now</button>
+    <button class="btn-secondary" onclick="showPage('volunteer')" style="margin:0 1rem;">Become a Volunteer</button>
+</div>
+    </div>
+
+
+    <!-- About Us Section -->
+    <div id="about" class="section">
+        <div class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1593113598332-cd288d649433?w=1200') center/cover;">
+            <div class="hero-content">
+                <h1>About Food Connect</h1>
+                <p>Our Mission to End Food Waste and Hunger</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">Our Story</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.1rem; line-height: 1.8;">
+                Food Connect was founded with a simple yet powerful vision: to create a world where no one goes hungry while perfectly good food goes to waste. We bridge the gap between food surplus and food insecurity, connecting donors with those in need through our innovative platform.
+            </p>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Our Mission</h3>
+                    <p>To eliminate food waste and combat hunger by creating efficient connections between food donors and recipients</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👁️</div>
+                    <h3>Our Vision</h3>
+                    <p>A world where every person has access to nutritious food and no edible food goes to waste</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💚</div>
+                    <h3>Our Values</h3>
+                    <p>Compassion, sustainability, community, and dignity in every action we take</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Find Food Section -->
+    <div id="find-food" class="section">
+        <div class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200') center/cover;">
+            <div class="hero-content">
+                <h1>Find Available Food</h1>
+                <p>Locate food assistance near you</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">Available Food Donations</h2>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400" alt="Fresh Vegetables" class="food-image">
+                    <div class="food-details">
+                        <h3 class="food-title">Fresh Vegetables</h3>
+                        <p class="food-location">📍 Downtown Community Center</p>
+                        <p>Available: 20 kg mixed vegetables</p>
+                        <span class="food-status">Available Now</span>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" alt="Bread & Bakery" class="food-image">
+                    <div class="food-details">
+                        <h3 class="food-title">Bread & Bakery Items</h3>
+                        <p class="food-location">📍 Sunrise Bakery</p>
+                        <p>Available: 50 loaves of bread</p>
+                        <span class="food-status">Available Now</span>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=400" alt="Cooked Meals" class="food-image">
+                    <div class="food-details">
+                        <h3 class="food-title">Hot Meals</h3>
+                        <p class="food-location">📍 City Food Bank</p>
+                        <p>Available: 100 prepared meals</p>
+                        <span class="food-status">Available Now</span>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1481671703460-040cb8a2d909?w=400" alt="Fruits" class="food-image">
+                    <div class="food-details">
+                        <h3 class="food-title">Fresh Fruits</h3>
+                        <p class="food-location">📍 Green Valley Market</p>
+                        <p>Available: 30 kg seasonal fruits</p>
+                        <span class="food-status">Available Now</span>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400" alt="Grains" class="food-image">
+                    <div class="food-details">
+                        <h3 class="food-title">Rice & Grains</h3>
+                        <p class="food-location">📍 Hope Food Shelter</p>
+                        <p>Available: 50 kg rice and lentils</p>
+                        <span class="food-status">Available Now</span>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=400" alt="Dairy" class="food-image">
+                    <div class="food-details">
+                        <h3 class="food-title">Dairy Products</h3>
+                        <p class="food-location">📍 Fresh Dairy Co-op</p>
+                        <p>Available: Milk, cheese, yogurt</p>
+                        <span class="food-status">Available Now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Food Shelter Section -->
+    <div id="food-shelter" class="section">
+        <div class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?w=1200') center/cover;">
+            <div class="hero-content">
+                <h1>Food Shelters</h1>
+                <p>Find nearby food banks and community kitchens</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">Our Partner Shelters</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Downtown Food Bank</h3>
+                    <p><strong>Address:</strong> 123 Main Street</p>
+                    <p><strong>Hours:</strong> Mon-Fri, 9AM-5PM</p>
+                    <p><strong>Contact:</strong> (555) 123-4567</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Community Kitchen</h3>
+                    <p><strong>Address:</strong> 456 Oak Avenue</p>
+                    <p><strong>Hours:</strong> Daily, 8AM-8PM</p>
+                    <p><strong>Contact:</strong> (555) 234-5678</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Hope Center</h3>
+                    <p><strong>Address:</strong> 789 Elm Road</p>
+                    <p><strong>Hours:</strong> Mon-Sat, 10AM-6PM</p>
+                    <p><strong>Contact:</strong> (555) 345-6789</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Sunshine Pantry</h3>
+                    <p><strong>Address:</strong> 321 Pine Street</p>
+                    <p><strong>Hours:</strong> Wed-Sun, 9AM-4PM</p>
+                    <p><strong>Contact:</strong> (555) 456-7890</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Caring Hearts Shelter</h3>
+                    <p><strong>Address:</strong> 654 Maple Drive</p>
+                    <p><strong>Hours:</strong> Daily, 7AM-9PM</p>
+                    <p><strong>Contact:</strong> (555) 567-8901</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Unity Food Hub</h3>
+                    <p><strong>Address:</strong> 987 Cedar Lane</p>
+                    <p><strong>Hours:</strong> Mon-Fri, 11AM-7PM</p>
+                    <p><strong>Contact:</strong> (555) 678-9012</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donate Section -->
+    <div id="donate" class="section">
+        <div class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=1200') center/cover;">
+            <div class="hero-content">
+                <h1>Donate Food</h1>
+                <p>Help us fight hunger by donating surplus food</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="form-container">
+                <h2 style="text-align: center; color: #2d6a4f; margin-bottom: 2rem;">Food Donation Form</h2>
+                <form id="donateForm" onsubmit="handleDonate(event)">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input type="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number *</label>
+                        <input type="tel" required placeholder="+1 (555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                        <label>Organization (Optional)</label>
+                        <input type="text" placeholder="Restaurant, Store, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label>Food Type *</label>
+                        <select required>
+                            <option value="">Select food type</option>
+                            <option>Fresh Vegetables</option>
+                            <option>Fruits</option>
+                            <option>Cooked Meals</option>
+                            <option>Bakery Items</option>
+                            <option>Grains & Cereals</option>
+                            <option>Dairy Products</option>
+                            <option>Canned Goods</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Quantity/Amount *</label>
+                        <input type="text" required placeholder="e.g., 20 kg, 50 meals">
+                    </div>
+                    <div class="form-group">
+                        <label>Pickup Address *</label>
+                        <textarea required placeholder="Enter complete address"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Preferred Pickup Time *</label>
+                        <input type="datetime-local" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Additional Notes</label>
+                        <textarea placeholder="Any special instructions or details"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit Donation</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Volunteer Section -->
+    <div id="volunteer" class="section">
+        <div class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200') center/cover;">
+            <div class="hero-content">
+                <h1>Volunteer With Us</h1>
+                <p>Join our team and make a difference</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="form-container">
+                <h2 style="text-align: center; color: #2d6a4f; margin-bottom: 2rem;">Volunteer Registration</h2>
+                <form id="volunteerForm" onsubmit="handleVolunteer(event)">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input type="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number *</label>
+                        <input type="tel" required placeholder="+1 (555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                        <label>Age *</label>
+                        <input type="number" required placeholder="18" min="16">
+                    </div>
+                    <div class="form-group">
+                        <label>Area of Interest *</label>
+                        <select required>
+                            <option value="">Select an area</option>
+                            <option>Food Collection</option>
+                            <option>Food Distribution</option>
+                            <option>Cooking & Meal Prep</option>
+                            <option>Driver/Transportation</option>
+                            <option>Event Organization</option>
+                            <option>Administrative Support</option>
+                            <option>Social Media & Marketing</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Availability *</label>
+                        <select required>
+                            <option value="">Select availability</option>
+                            <option>Weekdays</option>
+                            <option>Weekends</option>
+                            <option>Both</option>
+                            <option>Flexible</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Hours per Week *</label>
+                        <select required>
+                            <option value="">Select hours</option>
+                            <option>1-5 hours</option>
+                            <option>5-10 hours</option>
+                            <option>10-20 hours</option>
+                            <option>20+ hours</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Previous Volunteer Experience</label>
+                        <textarea placeholder="Tell us about any previous volunteer work"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Why do you want to volunteer?</label>
+                        <textarea required placeholder="Share your motivation"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <div class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1200') center/cover;">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="features" style="margin-bottom: 3rem;">
+                <div class="feature-card">
+                    <div class="feature-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <p>info@foodconnect.org</p>
+                    <p>support@foodconnect.org</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p>Main: (555) 123-4567</p>
+                    <p>Support: (555) 765-4321</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3>Visit Us</h3>
+                    <p>123 Charity Lane</p>
+                    <p>Your City, ST 12345</p>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h2 style="text-align: center; color: #2d6a4f; margin-bottom: 2rem;">Send Us a Message</h2>
+                <form id="contactForm" onsubmit="handleContact(event)">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input type="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" placeholder="+1 (555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                        <label>Subject *</label>
+                        <input type="text" required placeholder="What is this about?">
+                    </div>
+                    <div class="form-group">
+                        <label>Message *</label>
+                        <textarea required placeholder="Type your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login/Signup Section -->
+    <div id="auth" class="section">
+        <div class="auth-container">
+            <div class="auth-box">
+                <div class="logo" style="justify-content: center; margin-bottom: 2rem;">
+                    <div class="logo-icon">🌱</div>
+                    FOOD CONNECT
+                </div>
+                
+                <div class="auth-tabs">
+                    <div class="auth-tab active" id="loginTab" onclick="switchAuthTab('login')">Login</div>
+                    <div class="auth-tab" id="signupTab" onclick="switchAuthTab('signup')">Sign Up</div>
+                </div>
+
+                <!-- Login Form -->
+                <form class="auth-form active" id="loginForm" onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" required placeholder="Enter your password">
+                    </div>
+                    <div class="form-group" style="text-align: right;">
+                        <a href="#" style="color: #52b788; text-decoration: none;">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn-submit">Login</button>
+                </form>
+
+                <!-- Signup Form -->
+                <form class="auth-form" id="signupForm" onsubmit="handleSignup(event)">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" required placeholder="+1 (555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                        <label>User Type</label>
+                        <select required>
+                            <option value="">Select type</option>
+                            <option>Individual Donor</option>
+                            <option>Organization/Restaurant</option>
+                            <option>Volunteer</option>
+                            <option>Recipient</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" required placeholder="Create a password">
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" required placeholder="Confirm your password">
+                    </div>
+                    <button type="submit" class="btn-submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Food Connect</h3>
+                <p>We're dedicated to ending food waste and hunger by connecting surplus food with those who need it most.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#" onclick="showPage('home')">Home</a></li>
+                    <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                    <li><a href="#" onclick="showPage('find-food')">Find Food</a></li>
+                    <li><a href="#" onclick="showPage('volunteer')">Volunteer</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>📧 info@foodconnect.org</li>
+                    <li>📞 (555) 123-4567</li>
+                    <li>📍 123 Charity Lane, Your City</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Food Connect. All rights reserved. | Fighting Hunger Together</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
